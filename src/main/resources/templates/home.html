@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Language" content="en">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Login</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no" />
+    <meta name="description" content="This is an example dashboard created using build-in elements and components.">
+    <meta name="msapplication-tap-highlight" content="no">
+    <link href="./main.css" rel="stylesheet">
+</head>
+
+<body>
+<div class="app-container app-theme-white body-tabs-shadow fixed-sidebar fixed-header">
+    <div class="app-main">
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6 offset-3">
+                        <div class="mb-3 card">
+                            <div class="card-header-tab card-header-tab-animation card-header bg-red ">
+                                <div class="card-header-title">
+                                    <i class="header-icon lnr-apartment icon-gradient bg-love-kiss"> </i> LOGIN
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <div class="tab-content">
+                                    <div class="tab-pane fade show active" id="tabs-eg-77">
+                                        <form>
+                                            <div class="col-12">
+                                                <div class="form-group color-red">
+                                                    CPF e/ou senha incorreta.
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="cpf">CPF (apenas números)</label>
+                                                    <input type="text" id="cpf" class="form-control">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="senha">Senha</label>
+                                                    <input type="text" id="senha" class="form-control">
+                                                </div>
+                                                <div class="form-group">
+                                                    <a href="/lista" class="btn btn-primary">Login</a>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" th:src="@{./main.js}" test="true"></script>
+</body>
+
+</html>
